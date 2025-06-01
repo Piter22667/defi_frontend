@@ -10,8 +10,6 @@ import {Link, useLocation, NavLink} from "react-router-dom";
 
 const Sidebar = ({ user }) => {
 
-    const location = useLocation();
-
     return (
         <Box
             sx={{
